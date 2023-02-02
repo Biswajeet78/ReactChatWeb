@@ -1,0 +1,30 @@
+.box {
+    background-color: #777;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    transition: all 0.25s ease-in-out;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+
+.H1{
+    font-weight: 100;
+    font-size: 3rem;
+    margin: 0.5rem 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+.insideDiv{
+    flex-grow: 1;
+}
+
+.outsideDiv{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
