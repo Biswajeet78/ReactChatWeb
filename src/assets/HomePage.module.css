@@ -1,0 +1,49 @@
+
+
+.homeMain {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homeImg {
+    margin: 0;
+    height: auto;
+    width: 100vw;
+    max-width: 300px;
+    animation: slide 1s linear infinite alternate;
+}
+
+@keyframes slide {
+    0% {
+        transform: scale(0.95)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+.homeSection {
+    background: linear-gradient(to bottom, whiteSmoke, wheat);
+    height: auto;
+    padding: 10%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.homeForm {
+    width: 350px;
+}
+
+.friendsId{
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}

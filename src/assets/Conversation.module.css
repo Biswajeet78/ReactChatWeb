@@ -1,0 +1,68 @@
+
+
+.section {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+    scroll-behavior:smooth;
+    z-index: 0;
+    background-image: url("../assets//image/doodle.jpeg");
+}
+
+.section div {
+    z-index: 10;
+}
+
+.adminBox {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.friendBox {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.admin {
+    background-color: honeydew;
+    min-width: 250px;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 5px #777;
+}
+
+
+.admin>span {
+    width: 100%;
+    color: gray;
+    text-align: right;
+}
+
+.friend {
+    background-color: aliceBlue;
+    min-width: 250px;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 5px #777;
+}
+
+
+.friend>span {
+    width: 100%;
+    color: gray;
+    text-align: right;
+}
